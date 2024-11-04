@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+	background: black;
+	box-sizing: border-box;
+}
+#photo-heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: white;
+}
+#animal-photos{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+#animal-photos img{
+	max-width: 31%;
+	border-radius: 12px;
+}
